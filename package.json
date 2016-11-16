@@ -1,0 +1,21 @@
+{
+  "name": "discord.js-arbitrary-ffmpeg",
+  "version": "1.0.0",
+  "description": "A plugin for Discord.js to bring back the playArbitraryFFmpeg functionality.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SangkammarN-AB/discord.js-arbitrary-ffmpeg.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord.js",
+    "playArbitraryFFmpeg",
+    "ffmpeg",
+    "plugin"
+  ],
+  "author": "Erik Mårtensson",
+  "license": "ISC"
+}
