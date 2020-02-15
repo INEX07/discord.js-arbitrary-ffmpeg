@@ -25,7 +25,7 @@ const playArbitraryFFmpeg = function(objVoiceConnection, arrFFmpegParams, objOpt
 	const arrFinalParams = arrFFmpegParams.concat(arrStandardParams);
 	let ffmpeg = spawn('ffmpeg', arrFinalParams);
 
-	return objVoiceConnection.playStream(ffmpeg.stdout, objOptions)
+	return objVoiceConnection.play(ffmpeg.stdout, objOptions)
 
 };
 
